@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double DITouchVersionNumber;
 FOUNDATION_EXPORT const unsigned char DITouchVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DITouch/PublicHeader.h>
-
-
+#import <DITouch/DITableViewController.h>
+#import <DITouch/SegmentContentViewController.h>

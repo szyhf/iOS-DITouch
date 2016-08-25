@@ -1,0 +1,19 @@
+//
+//  DITouch-Prefix.pch
+//  DITouch
+//
+//  Created by Back on 16/5/17.
+//  Copyright © 2016年 Back. All rights reserved.
+//
+
+#ifndef DITouch_Prefix_pch
+#define DITouch_Prefix_pch
+
+#import "Masonry.h"
+// 定义这个常量,就可以在使用Masonry不必总带着前缀 `mas_`:
+#define MAS_SHORTHAND
+// 定义这个常量,以支持在 Masonry 语法中自动将基本类型转换为 object 类型:
+#define MAS_SHORTHAND_GLOBALS
+#define WS(weakSelf) __weak __typeof(&*self) weakSelf = self;
+
+#endif /* DITouch_Prefix_pch */

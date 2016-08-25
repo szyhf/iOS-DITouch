@@ -8,12 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		0C52773D1CEACE030021B477 /* DITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C52773C1CEACE030021B477 /* DITouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5277531CEACE150021B477 /* DITableViewController+DataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5277461CEACE150021B477 /* DITableViewController+DataSource.h */; };
+		0C5277541CEACE150021B477 /* DITableViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277471CEACE150021B477 /* DITableViewController+DataSource.m */; };
+		0C5277551CEACE150021B477 /* DITableViewController+Proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5277481CEACE150021B477 /* DITableViewController+Proxy.h */; };
+		0C5277561CEACE150021B477 /* DITableViewController+Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277491CEACE150021B477 /* DITableViewController+Proxy.m */; };
+		0C5277571CEACE150021B477 /* DITableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C52774A1CEACE150021B477 /* DITableViewController.h */; };
+		0C5277581CEACE150021B477 /* DITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C52774B1CEACE150021B477 /* DITableViewController.m */; };
+		0C52775A1CEACE150021B477 /* SegmentContentViewController+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C52774E1CEACE150021B477 /* SegmentContentViewController+Layout.m */; };
+		0C52775B1CEACE150021B477 /* SegmentContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C52774F1CEACE150021B477 /* SegmentContentViewController.h */; };
+		0C52775C1CEACE150021B477 /* SegmentContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277501CEACE150021B477 /* SegmentContentViewController.m */; };
+		0C52775D1CEACE150021B477 /* SegmentSuspendScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5277511CEACE150021B477 /* SegmentSuspendScrollViewController.h */; };
+		0C52775E1CEACE150021B477 /* SegmentSuspendScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277521CEACE150021B477 /* SegmentSuspendScrollViewController.m */; };
+		0C5277601CEAD1AE0021B477 /* DITouch-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0C52775F1CEAD1AE0021B477 /* DITouch-Prefix.pch */; };
+		0C52776A1CEAD6870021B477 /* DICell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5277651CEAD6870021B477 /* DICell.h */; };
+		0C52776B1CEAD6870021B477 /* DICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277661CEAD6870021B477 /* DICell.m */; };
+		0C52776C1CEAD6870021B477 /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5277681CEAD6870021B477 /* YYFPSLabel.h */; };
+		0C52776D1CEAD6870021B477 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5277691CEAD6870021B477 /* YYFPSLabel.m */; };
+		0CAF0A7E1D09657800CB826E /* DIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAF0A7C1D09657800CB826E /* DIScrollView.h */; };
+		0CAF0A7F1D09657800CB826E /* DIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF0A7D1D09657800CB826E /* DIScrollView.m */; };
+		512C9283C12255EC2722027B /* libPods-DITouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B757C846F07391E434B9AC /* libPods-DITouch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C5277391CEACE030021B477 /* DITouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DITouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C52773C1CEACE030021B477 /* DITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DITouch.h; sourceTree = "<group>"; };
 		0C52773E1CEACE030021B477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5277461CEACE150021B477 /* DITableViewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DITableViewController+DataSource.h"; sourceTree = "<group>"; };
+		0C5277471CEACE150021B477 /* DITableViewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DITableViewController+DataSource.m"; sourceTree = "<group>"; };
+		0C5277481CEACE150021B477 /* DITableViewController+Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DITableViewController+Proxy.h"; sourceTree = "<group>"; };
+		0C5277491CEACE150021B477 /* DITableViewController+Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DITableViewController+Proxy.m"; sourceTree = "<group>"; };
+		0C52774A1CEACE150021B477 /* DITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITableViewController.h; sourceTree = "<group>"; };
+		0C52774B1CEACE150021B477 /* DITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITableViewController.m; sourceTree = "<group>"; };
+		0C52774E1CEACE150021B477 /* SegmentContentViewController+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SegmentContentViewController+Layout.m"; sourceTree = "<group>"; };
+		0C52774F1CEACE150021B477 /* SegmentContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentContentViewController.h; sourceTree = "<group>"; };
+		0C5277501CEACE150021B477 /* SegmentContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentContentViewController.m; sourceTree = "<group>"; };
+		0C5277511CEACE150021B477 /* SegmentSuspendScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentSuspendScrollViewController.h; sourceTree = "<group>"; };
+		0C5277521CEACE150021B477 /* SegmentSuspendScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentSuspendScrollViewController.m; sourceTree = "<group>"; };
+		0C52775F1CEAD1AE0021B477 /* DITouch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DITouch-Prefix.pch"; sourceTree = "<group>"; };
+		0C5277651CEAD6870021B477 /* DICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DICell.h; sourceTree = "<group>"; };
+		0C5277661CEAD6870021B477 /* DICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DICell.m; sourceTree = "<group>"; };
+		0C5277681CEAD6870021B477 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		0C5277691CEAD6870021B477 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		0CAF0A7C1D09657800CB826E /* DIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIScrollView.h; sourceTree = "<group>"; };
+		0CAF0A7D1D09657800CB826E /* DIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIScrollView.m; sourceTree = "<group>"; };
+		19AA5440FE723DB3301C0BC1 /* Pods-DITouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DITouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-DITouch/Pods-DITouch.release.xcconfig"; sourceTree = "<group>"; };
+		61B757C846F07391E434B9AC /* libPods-DITouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DITouch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2DFF32DE488DA562342589 /* Pods-DITouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DITouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DITouch/Pods-DITouch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512C9283C12255EC2722027B /* libPods-DITouch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +71,11 @@
 		0C52772F1CEACE030021B477 = {
 			isa = PBXGroup;
 			children = (
-				0C52773B1CEACE030021B477 /* DITouch */,
+				0CB4078B1CF42DEC00C9394A /* Classes */,
 				0C52773A1CEACE030021B477 /* Products */,
+				0C5277611CEAD1FE0021B477 /* Supporting Files */,
+				2685434E4063EEE634E07034 /* Pods */,
+				55C2182BD4BE37D820BA3816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,13 +87,119 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C52773B1CEACE030021B477 /* DITouch */ = {
+		0C5277441CEACE150021B477 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0C52773C1CEACE030021B477 /* DITouch.h */,
+				0CAF0A7B1D09654800CB826E /* DIScrollView */,
+				0C5277451CEACE150021B477 /* DITableViewController */,
+				0C52774C1CEACE150021B477 /* SegmentContentViewController */,
+				0C5277621CEAD2190021B477 /* SegmentSuspendScrollViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C5277451CEACE150021B477 /* DITableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277461CEACE150021B477 /* DITableViewController+DataSource.h */,
+				0C5277471CEACE150021B477 /* DITableViewController+DataSource.m */,
+				0C5277481CEACE150021B477 /* DITableViewController+Proxy.h */,
+				0C5277491CEACE150021B477 /* DITableViewController+Proxy.m */,
+				0C52774A1CEACE150021B477 /* DITableViewController.h */,
+				0C52774B1CEACE150021B477 /* DITableViewController.m */,
+			);
+			path = DITableViewController;
+			sourceTree = "<group>";
+		};
+		0C52774C1CEACE150021B477 /* SegmentContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C52774E1CEACE150021B477 /* SegmentContentViewController+Layout.m */,
+				0C52774F1CEACE150021B477 /* SegmentContentViewController.h */,
+				0C5277501CEACE150021B477 /* SegmentContentViewController.m */,
+			);
+			path = SegmentContentViewController;
+			sourceTree = "<group>";
+		};
+		0C5277611CEAD1FE0021B477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C52775F1CEAD1AE0021B477 /* DITouch-Prefix.pch */,
 				0C52773E1CEACE030021B477 /* Info.plist */,
 			);
-			path = DITouch;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C5277621CEAD2190021B477 /* SegmentSuspendScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277511CEACE150021B477 /* SegmentSuspendScrollViewController.h */,
+				0C5277521CEACE150021B477 /* SegmentSuspendScrollViewController.m */,
+			);
+			path = SegmentSuspendScrollViewController;
+			sourceTree = "<group>";
+		};
+		0C5277631CEAD6750021B477 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277641CEAD6870021B477 /* DICell */,
+				0C5277671CEAD6870021B477 /* YYFpsLabel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C5277641CEAD6870021B477 /* DICell */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277651CEAD6870021B477 /* DICell.h */,
+				0C5277661CEAD6870021B477 /* DICell.m */,
+			);
+			path = DICell;
+			sourceTree = "<group>";
+		};
+		0C5277671CEAD6870021B477 /* YYFpsLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277681CEAD6870021B477 /* YYFPSLabel.h */,
+				0C5277691CEAD6870021B477 /* YYFPSLabel.m */,
+			);
+			path = YYFpsLabel;
+			sourceTree = "<group>";
+		};
+		0CAF0A7B1D09654800CB826E /* DIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0CAF0A7C1D09657800CB826E /* DIScrollView.h */,
+				0CAF0A7D1D09657800CB826E /* DIScrollView.m */,
+			);
+			name = DIScrollView;
+			sourceTree = "<group>";
+		};
+		0CB4078B1CF42DEC00C9394A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C5277441CEACE150021B477 /* Controllers */,
+				0C5277631CEAD6750021B477 /* Views */,
+				0C52773C1CEACE030021B477 /* DITouch.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2685434E4063EEE634E07034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB2DFF32DE488DA562342589 /* Pods-DITouch.debug.xcconfig */,
+				19AA5440FE723DB3301C0BC1 /* Pods-DITouch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55C2182BD4BE37D820BA3816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B757C846F07391E434B9AC /* libPods-DITouch.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +209,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5277531CEACE150021B477 /* DITableViewController+DataSource.h in Headers */,
+				0C52776C1CEAD6870021B477 /* YYFPSLabel.h in Headers */,
+				0C52775B1CEACE150021B477 /* SegmentContentViewController.h in Headers */,
+				0C5277571CEACE150021B477 /* DITableViewController.h in Headers */,
+				0C5277551CEACE150021B477 /* DITableViewController+Proxy.h in Headers */,
 				0C52773D1CEACE030021B477 /* DITouch.h in Headers */,
+				0CAF0A7E1D09657800CB826E /* DIScrollView.h in Headers */,
+				0C5277601CEAD1AE0021B477 /* DITouch-Prefix.pch in Headers */,
+				0C52776A1CEAD6870021B477 /* DICell.h in Headers */,
+				0C52775D1CEACE150021B477 /* SegmentSuspendScrollViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C5277411CEACE030021B477 /* Build configuration list for PBXNativeTarget "DITouch" */;
 			buildPhases = (
+				2901064C698BBDF865C00DC7 /* 📦 Check Pods Manifest.lock */,
 				0C5277341CEACE030021B477 /* Sources */,
 				0C5277351CEACE030021B477 /* Frameworks */,
 				0C5277361CEACE030021B477 /* Headers */,
 				0C5277371CEACE030021B477 /* Resources */,
+				B668FB45C867A3151CC2FFFA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +286,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2901064C698BBDF865C00DC7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B668FB45C867A3151CC2FFFA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DITouch/Pods-DITouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C5277341CEACE030021B477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C52775E1CEACE150021B477 /* SegmentSuspendScrollViewController.m in Sources */,
+				0C5277541CEACE150021B477 /* DITableViewController+DataSource.m in Sources */,
+				0C52776D1CEAD6870021B477 /* YYFPSLabel.m in Sources */,
+				0C52776B1CEAD6870021B477 /* DICell.m in Sources */,
+				0C52775C1CEACE150021B477 /* SegmentContentViewController.m in Sources */,
+				0CAF0A7F1D09657800CB826E /* DIScrollView.m in Sources */,
+				0C5277581CEACE150021B477 /* DITableViewController.m in Sources */,
+				0C52775A1CEACE150021B477 /* SegmentContentViewController+Layout.m in Sources */,
+				0C5277561CEACE150021B477 /* DITableViewController+Proxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,13 +431,16 @@
 		};
 		0C5277421CEACE030021B477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2DFF32DE488DA562342589 /* Pods-DITouch.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DITouch/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/DITouch-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangfeng.DITouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -244,13 +450,16 @@
 		};
 		0C5277431CEACE030021B477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AA5440FE723DB3301C0BC1 /* Pods-DITouch.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DITouch/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/DITouch-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liangfeng.DITouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +486,7 @@
 				0C5277431CEACE030021B477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
